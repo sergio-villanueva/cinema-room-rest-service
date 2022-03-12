@@ -78,9 +78,12 @@ These are response examples from successfully processed requests
   
     ```
     {
-      "row": 3,
-      "column": 4,
-      "price": 10
+      "token": "e739267a-7031-4eed-a49c-65d8ac11f556",
+      "ticket": {
+          "row": 3,
+          "column": 4,
+          "price": 10
+      }
     }
     ```
 
@@ -88,10 +91,9 @@ These are response examples from successfully processed requests
   
     ```
     {
-      "token": "e739267a-7031-4eed-a49c-65d8ac11f556",
-      "ticket": {
-          "row": 3,
-          "column": 4,
+      "returned_ticket": {
+          "row": 1,
+          "column": 2,
           "price": 10
       }
     }
