@@ -1,5 +1,5 @@
 # Cinema Room Rest Service
-A REST Service that delivers common functionality for both users and managers to interface with. This API was built using the Spring Framework and follows the Model-View-Controller design pattern.
+A REST Service that delivers common functionality for both users and managers to interface with. This API was built using the Spring Framework and follows the Model-View-Controller design pattern. Project code is found under the "cinema-room-rest-service/Cinema Room REST Service/task/" path.
 ## Endpoint Definitions
 
 - "/seats": handles GET requests and returns the information about the movie theatre. 
